@@ -1,0 +1,18 @@
+/* .header {
+    background-color: #007bff;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+   */
+
+   .header {
+    background-color: #007bff;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    position: sticky; /* Keeps the header in place */
+    top: 0; /* Ensures it sticks to the top */
+    z-index: 100; /* Prevents it from being overlapped by other elements */
+  }
+  

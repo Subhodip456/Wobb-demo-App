@@ -1,0 +1,95 @@
+/* .campaign-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .campaign-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .status {
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+  
+  .status.profile-pending {
+    background-color: #ff4d4d;
+    color: white;
+  }
+  
+  .progress-bar {
+    height: 6px;
+    background: #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 10px;
+  }
+  
+  .progress {
+    height: 100%;
+    background: #4caf50;
+  }
+   */
+
+   .campaign-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 1rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+  }
+  
+  .campaign-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .campaign-content {
+    padding: 1rem;
+  }
+  
+  .brand-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .campaign-description {
+    margin: 0.5rem 0;
+    color: #555;
+  }
+  
+  .payout {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .progress-container {
+    background: #f0f0f0;
+    border-radius: 4px;
+    margin: 0.5rem 0;
+    height: 10px;
+  }
+  
+  .progress-bar {
+    background: #007bff;
+    height: 100%;
+    border-radius: 4px;
+  }
+  
+  .slots {
+    color: #555;
+    font-size: 0.9rem;
+  }
+  
